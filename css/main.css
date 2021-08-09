@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px 25px;
+  padding: 50px 25px;
   min-height: 100vh;
 }
 h1 {
