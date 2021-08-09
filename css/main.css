@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /* Colors */
+  /* Primary */
+  --blue-1: hsl(179, 62%, 43%);
+  --yellow: hsl(71, 73%, 54%);
+  /* Neutral */
+  --gray: hsl(204, 43%, 93%);
+  --blue-2: hsl(218, 22%, 67%);
+  /* --------------------- */
+  /* Typography */
+  --body-size: 16px;
+  --bold-w: 700;
+  --normal-w: 400;
+
+  --h1-size: 1.5rem;
+  --h2-size: 1.125rem;
+  --p1-spacing: -0.2px;
+  --p1-height: -0.2px;
+}
+body {
+  font-family: "Karla", sans-serif;
+  font-size: var(--body-size);
+  background-color: var(--blue-2);
+}
